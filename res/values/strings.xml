@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ACTIVITY_ENTRY_NAME</string>
+  <!-- Media Picker -->
+  <string name="mediapicker_button_select">Select media</string>
+  <string name="mediapicker_button_cancel">Cancel</string>
+  <string name="mediapicker_loading_galleries">Loading albums</string>
+  <string name="mediapicker_loading_media">Loading media in album</string>
+  <string name="mediapicker_no_images">You must select at least one media file.</string>
+  <string name="mediapicker_no_galleries">You have no albums or media files on your phone.</string>
+  <string name="mediapicker_max_selected" formatted="false">You have already selected the maximum number allowed (%d).</string>
+  <string name="mediapicker_title_num" formatted="false">Album: %s (%d)</string>
+  <string name="mediapicker_title_num_max" formatted="false">Album: %s (%d / %d)</string>
 </resources>

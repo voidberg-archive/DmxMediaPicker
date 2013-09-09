@@ -1,7 +1,7 @@
 DmxMediaPicker
 ==============
 
-DmxMediaPicker is a media picker for Android allowing the selection of multiple images and video. It's developed at [Demotix.com](http://www.demotix.com/ "Demotix.com") by Alexandru Badiu.
+DmxMediaPicker is a media picker for Android allowing the selection of multiple images and video. It's developed at [Demotix.com](http://www.demotix.com/ "Demotix.com") by [Alexandru Badiu](http://ctrlz.ro).
 
 It's currently work in progress. Contributions welcome.
 
@@ -13,6 +13,17 @@ Features
 * You can specify a maximum number of items to be returned
 * You can specify the type of media allowed
 * You can specify a blacklist of media items (that are not selectable)
+
+Installation
+============
+
+You are going to need the following dependencies:
+
+* Android Support Library
+* ActionBar Sherlock
+
+For the time being copy the files and resources in your project and merge the values in strings.xml.
+
 
 Usage
 =====
