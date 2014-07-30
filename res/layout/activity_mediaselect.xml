@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mediapicker_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+        <ListView
+                android:layout_weight="1"
+                android:id="@+id/mediapicker_list"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp">
+        </ListView>
+        <TextView
+                android:gravity="center"
+                android:id="@+id/mediapicker_no_galleries"
+                android:text="@string/mediapicker_no_galleries"
+                android:padding="20dp"
+                android:textSize="20dp"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"  />
+        <LinearLayout
+                android:layout_weight="0.1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp">
+            <Button
+                    android:id="@+id/mediapicker_button_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mediapicker_button_cancel" >
+            </Button>
+            <Button
+                    android:id="@+id/mediapicker_button_select"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mediapicker_button_select" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+        <GridView
+                android:layout_weight="1"
+                android:id="@+id/mediapicker_grid"
+                android:numColumns="auto_fit"
+                android:columnWidth="100dp"
+                android:stretchMode="columnWidth"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp">
+        </GridView>
+        <LinearLayout
+                android:layout_weight="0.1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp">
+            <Button
+                    android:id="@+id/mediapicker_buttonm_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mediapicker_button_cancel" >
+            </Button>
+            <Button
+                    android:id="@+id/mediapicker_buttonm_select"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mediapicker_button_select" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</ViewFlipper>
